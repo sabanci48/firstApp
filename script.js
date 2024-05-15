@@ -7,7 +7,7 @@ document.getElementById('myButton').addEventListener('click', function() {
         // Create a new image element
         bearImage = document.createElement('img');
         bearImage.id = 'bearImage';
-        bearImage.src = 'https://github.com/sabanci48/firstApp/blob/main/Bear_PNG_Clip_Art-1476.png'; // Replace with the URL of your bear image
+        bearImage.src = 'https://github.com/sabanci48/firstApp/Bear_PNG_Clip_Art-1476.png'; // Replace with the URL of your bear image
         bearContainer.appendChild(bearImage);
     }
     

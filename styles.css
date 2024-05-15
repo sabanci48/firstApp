@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h1 {
+    color: blue;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#bearContainer {
+    margin-top: 20px;
+}
+
+#bearImage {
+    display: none;
+    width: 200px;
+    height: auto;
+}
